@@ -22,8 +22,6 @@ namespace DataAccessLayer.Concrete.Repositories
         }
 
        
-
-       
         public void Insert(Category p)
         {
             _object.Add(p);

@@ -3,14 +3,18 @@
     Layout = null;
 }
 
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
 <h3>Mvc Proje Tablo Örneği-Kategori</h3>
 <br />
-<table>
+<table class="table table-bordered">
     <tr>
         <th>ID</th>
         <th>Kategori Adı</th>
         <th>Açıklama</th>
         <th>Durum</th>
+        <th>Güncelle</th>
     </tr>
 
     <tr>
@@ -18,11 +22,32 @@
         <td>Eğitim</td>
         <td>Açıklama Yapıldı</td>
         <td>işlendi</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
     </tr>
     <tr>
         <td>2</td>
         <td>Spor</td>
         <td>Açıklandı</td>
         <td>işlendi</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dizi</td>
+        <td>Açıklandı</td>
+        <td>işlendi</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Film</td>
+        <td>Açıklandı</td>
+        <td>işlendi</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
     </tr>
 </table>
+<buton class="btn btn-info">Yeni Kategori</buton>
+<buton class="btn btn-warning">Kategori Listesi</buton>
+<buton class="btn btn-danger">Kategori Açıklamaları</buton>
+
+
